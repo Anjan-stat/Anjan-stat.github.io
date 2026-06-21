@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anjan Mandal — Statistician</title>
+<meta name="description" content="Anjan Mandal, PhD — Bayesian statistics, directional statistics, and statistical computing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">anjan&nbsp;mandal</a>
+    <ul>
+      <li><a class="current" href="index.html#top">cv</a></li>
+      <li><a href="index.html#projects">projects</a></li>
+      <li><a href="index.html#publications">publications</a></li>
+      <li><a href="blog/index.html">blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">PhD, Mathematical Sciences — UNLV</p>
+      <h1>Anjan Mandal</h1>
+      <p class="role">Statistician — directional statistics, Bayesian analysis, statistical computing</p>
+      <div class="contact-line">
+        <span>931&#8209;302&#8209;4737</span>
+        <span>&middot;</span>
+        <a href="mailto:9.anjanstat@gmail.com">9.anjanstat@gmail.com</a>
+        <span>&middot;</span>
+        <a href="https://www.linkedin.com/in/anjan-mandal/" target="_blank" rel="noopener">linkedin</a>
+        <span>&middot;</span>
+        <a href="https://github.com/Anjan-stat" target="_blank" rel="noopener">github</a>
+      </div>
+    </div>
+    <div class="signature-figure" aria-hidden="true">
+      <!-- Signature mark: circular embedding of a simplex point, drawn from the candidate's own
+           thesis work (von Mises proposal steps on the simplex). -->
+      <svg viewBox="0 0 168 168" fill="none">
+        <circle cx="84" cy="84" r="62" stroke="#1C2230" stroke-width="1"/>
+        <line x1="84" y1="84" x2="84" y2="22" stroke="#D8D2C2" stroke-width="1"/>
+        <line x1="84" y1="84" x2="131" y2="120" stroke="#9C7A2E" stroke-width="1.4"/>
+        <path d="M 84 60 A 24 24 0 0 1 105 96" stroke="#9C7A2E" stroke-width="1" fill="none" stroke-dasharray="2 2"/>
+        <circle cx="84" cy="22" r="2.6" fill="#1C2230"/>
+        <circle cx="131" cy="120" r="2.6" fill="#9C7A2E"/>
+        <circle cx="84" cy="84" r="2" fill="#1C2230"/>
+        <polygon points="84,84 60,128 118,140" stroke="#1C2230" stroke-width="0.75" stroke-dasharray="1.5 2.5" fill="none" opacity="0.45"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="about">
+    <div class="section-head"><span class="num">01</span><h2>Research focus</h2><span class="rule"></span></div>
+    <p class="lede">I work on Bayesian methods for directional and compositional data — building samplers and spatial models that hold up on real imaging and genomics data, not just in simulation.</p>
+    <p>My PhD research developed Bayesian models for fiber-direction estimation in diffusion MRI, including a spatial prior for angular continuity (SPACE) and a generalized multi-fiber extension of the Ball-and-Stick model. A separate thread of that work — sampling efficiently on the simplex by embedding it into a circular manifold — became the <a href="#projects">CircSimplex</a> R package below.</p>
+    <div class="skills-row">
+      <span class="skill-pill">Directional statistics</span>
+      <span class="skill-pill">Bayesian analysis</span>
+      <span class="skill-pill">MCMC</span>
+      <span class="skill-pill">Regularized estimation</span>
+      <span class="skill-pill">Machine learning</span>
+      <span class="skill-pill">R</span>
+      <span class="skill-pill">Python</span>
+      <span class="skill-pill">SQL</span>
+      <span class="skill-pill">SAS</span>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-head"><span class="num">02</span><h2>Education</h2><span class="rule"></span></div>
+    <div class="entry">
+      <div class="entry-head"><h3>PhD, Mathematical Sciences</h3><span class="when">Aug 2017 – Dec 2024</span></div>
+      <p class="org">University of Nevada, Las Vegas</p>
+    </div>
+    <div class="entry">
+      <div class="entry-head"><h3>Master's in Statistics</h3><span class="when">Jul 2008 – May 2011</span></div>
+      <p class="org">Indian Institute of Technology, Kanpur</p>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="section-head"><span class="num">03</span><h2>Research &amp; teaching</h2><span class="rule"></span></div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Adjunct Faculty</h3><span class="when">Jan 2026 – present</span></div>
+      <p class="org">Union College of Union County, NJ &middot; Cranford, NJ</p>
+      <p>Teach Elementary Statistics to undergraduates, focused on building strong foundations in probability, data analysis, and statistical reasoning — with an emphasis on real-world applications and interactive problem-solving.</p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Bayesian Estimation of Directional Parameters from Signal Data</h3><span class="when">Jan 2020 – Dec 2024</span></div>
+      <p class="org">University of Nevada, Las Vegas</p>
+      <p>Proposed SPACE — a Spatial Prior for Angular Continuity Estimation — to address the lack of neighborhood information in dMRI data analysis, applied to three-dimensional whole-brain structure MRI for automatic model selection. The resulting fiber-direction estimates feed into resolving the fiber-crossing problem.</p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Generalized Model for Simplified dMRI Model</h3><span class="when">Jan 2022 – Dec 2024</span></div>
+      <p class="org">University of Nevada, Las Vegas</p>
+      <p>Developed a computationally efficient generalized multi-fiber extension of the Ball-and-Stick Model (BSM), addressing the single-fiber limitation that restricts the standard approach's applicability.</p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Sampling from Simplex Space</h3><span class="when">Aug 2021 – Jan 2023</span></div>
+      <p class="org">University of Nevada, Las Vegas</p>
+      <p>Developed two novel proposal distributions for MCMC sampling on the simplex — one via circular embedding, one via the projected gamma distribution — eliminating sampling inefficiencies near vertex and edge regions and substantially improving sampler performance.</p>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Teaching Assistant, Dept. of Mathematical Sciences</h3><span class="when">Aug 2017 – Aug 2023</span></div>
+      <p class="org">University of Nevada, Las Vegas</p>
+      <p>Taught and led discussion sessions for Applied Statistics for Engineers; The Practice of Statistics in the Life Sciences; Introduction to Statistics; Finite Mathematics; College Algebra; and Fundamentals of College Mathematics.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-head"><span class="num">04</span><h2>Industry &amp; internship experience</h2><span class="rule"></span></div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Research Assistant</h3><span class="when">Jul 2023 – Dec 2023</span></div>
+      <p class="org">Weill Cornell Medicine &middot; New York, NY</p>
+      <ul>
+        <li>Developed statistical methods for spatially variable gene detection in transcriptomic data.</li>
+        <li>Designed a scalable Generalized Additive Model (GAM) framework and benchmarked new methods against existing tools.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Oncology Research Intern</h3><span class="when">May 2022 – Aug 2022</span></div>
+      <p class="org">AstraZeneca &middot; Gaithersburg, MD</p>
+      <ul>
+        <li>Explored Bayesian approaches to borrowing historical data into clinical trials.</li>
+        <li>Evaluated dual-endpoint trial performance and presented findings to research teams.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Digital Marketing Consultant</h3><span class="when">Jan 2015 – Jun 2017</span></div>
+      <p class="org">Accenture &middot; Gurgaon, India</p>
+      <ul>
+        <li>Led demand forecasting for 1,100 retail stores; automated model evaluation and reporting.</li>
+        <li>Directed promotional allocation modeling and presented analyses to stakeholders.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Analytics Analyst</h3><span class="when">Nov 2012 – Dec 2014</span></div>
+      <p class="org">Accenture &middot; Gurgaon, India</p>
+      <ul>
+        <li>Built econometric and Market Mix Models in SAS to quantify marketing effectiveness.</li>
+        <li>Provided optimization insights on media spending using panel data analysis.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Research Associate, Fixed Income Group, Financial Services</h3><span class="when">May 2011 – Jul 2012</span></div>
+      <p class="org">Evalueserve &middot; Gurgaon, India</p>
+      <ul>
+        <li>Modeled sovereign credit default swaps using Bloomberg financial data.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><h3>Summer Intern, Bayesian and Interdisciplinary Research Institute</h3><span class="when">May 2009 – Jul 2009</span></div>
+      <p class="org">Indian Statistical Institute &middot; Calcutta, India</p>
+      <ul>
+        <li>Helped develop a rule for optimum adaptive sequential design to minimize the number of less-effective drugs and maximize the probability of correct selection for a symmetric location-parameter family.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-head"><span class="num">05</span><h2>Projects</h2><span class="rule"></span></div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>CircSimplex</h3>
+        <div class="tags">R package &middot; MCMC &middot; directional statistics</div>
+        <p>An R package implementing circular-embedding proposal steps for simplex-valued vectors: it embeds a pair of compositional components into a circle, perturbs the angle with a von Mises proposal, and maps the result back onto the simplex. Built as a Metropolis-Hastings proposal mechanism for compositional / proportion data — the computational core of the simplex-sampling research above.</p>
+        <div class="links">
+          <a href="https://github.com/Anjan-stat/CircSimplex" target="_blank" rel="noopener">source &rarr;</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>SPACE — Spatial Prior for Angular Continuity Estimation</h3>
+        <div class="tags">Bayesian modeling &middot; dMRI &middot; neuroimaging</div>
+        <p>A Bayesian model incorporating spatial neighborhood information into fiber-direction estimation from diffusion MRI, applied to whole-brain structural data for automatic model selection and resolving fiber-crossing.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Generalized Ball-and-Stick Model</h3>
+        <div class="tags">Statistical computing &middot; multi-fiber estimation</div>
+        <p>A computationally efficient, generalized multi-fiber extension of the standard Ball-and-Stick Model for dMRI, removing its single-fiber limitation.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="section-head"><span class="num">06</span><h2>Publications</h2><span class="rule"></span></div>
+    <ul class="pub-list">
+      <li><span class="status">Published, 2021</span>Rahul Deb Das, Ananda Sankar Pal, Madorina Paul, Anjan Mandal. "Exploring Twitter Data to Understand the Impact of COVID-19 Pandemic in India using NLP and Deep Learning," in <em>Intelligent Modelling, Prediction, and Diagnosis from Epidemiological Data</em>, CRC Press.</li>
+      <li><span class="status">In progress</span>Bayesian Approach for Finding the Fiber Direction using Spatial Prior for Angular Continuity Estimation (SPACE).</li>
+      <li><span class="status">In progress</span>Experimental Design and Differential Analysis of Spatial Multiomics.</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <div class="section-head"><span class="num">07</span><h2>Achievements</h2><span class="rule"></span></div>
+    <ul class="pub-list">
+      <li>Council of Scientific &amp; Industrial Research Junior Research Fellowship, Government of India.</li>
+      <li>Employee of the Quarter (Q3 2015), Accenture, India.</li>
+      <li>Nomination, National Society of Leadership and Success (NSLS), University of Nevada, Las Vegas.</li>
+      <li>1st place, district-level mathematics competition.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>&copy; 2026 Anjan Mandal</span>
+  <span>Built with HTML, CSS, and a dislike of bloated templates.</span>
+</footer>
+
+</body>
+</html>
